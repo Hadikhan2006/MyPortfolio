@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress-container">
+        <div class="scroll-progress-bar"></div>
+    </div>
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Social Bar -->
+    <div class="social-bar">
+        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/wth.hadi_/" class="social-link"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/hadi-khan-35b7b3345/" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><b>HK</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home"><b>Home</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about"><b>About</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services"><b>Services</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio"><b>Portfolio</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact"><b>Contact</b></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-12 text-center">
+                    <h1 class="display-1 hero-title">
+                        <span class="text-reveal">Creative</span>
+                        <span class="highlight text-reveal"><span class="typed-text"></span></span>
+                    </h1>
+                    <p class="lead text-reveal-delayed">Hadi Khan</p>
+                    <p class="lead text-reveal-delayed">Based in Karachi, Pakistan</p>
+                    <div class="scroll-indicator">
+                        <div class="mouse"></div>
+                        <p>Scroll Down</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-particles" id="particles-js"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="about-img">
+                        <img src="wth.hadi_-27-01-2025-0001.jpg" alt="About Image" class="img-fluid">
+                        <div class="experience-badge">
+                            <span class="number">1</span>
+                            <span class="text">Year<br>Experience</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="about-content">
+                        <h2 class="section-title">About Me</h2>
+                        <p class="lead">Passionate about creating beautiful and functional designs</p>
+                        <p>With 1 year of experience in web development, WordPress customization, Python programming, graphic design, and Microsoft Office, I specialize in building dynamic websites, creating visually appealing designs, and developing efficient Python solutions. Additionally, I excel in document creation, data analysis, and presentations, ensuring productivity and precision in every project.</p>
+                        <div class="skills">
+                            <div class="skill">
+                                <span class="skill-name">UI/UX Design</span>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <span class="skill-name">Web Development</span>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <span class="skill-name">Branding</span>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 95%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section (NEW) -->
+    <section class="stats-section animated-bg">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-3 col-6">
+                    <div class="stat-card">
+                        <i class="fas fa-project-diagram fa-2x mb-3" style="color: var(--primary-color);"></i>
+                        <div class="counter-value" data-count="10">0</div>
+                        <h4>Projects Completed</h4>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stat-card">
+                        <i class="fas fa-users fa-2x mb-3" style="color: var(--primary-color);"></i>
+                        <div class="counter-value" data-count="10">0</div>
+                        <h4>Happy Clients</h4>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stat-card">
+                        <i class="fas fa-clock fa-2x mb-3" style="color: var(--primary-color);"></i>
+                        <div class="counter-value" data-count="100">0</div>
+                        <h4>Hours Worked</h4>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stat-card">
+                        <i class="fas fa-award fa-2x mb-3" style="color: var(--primary-color);"></i>
+                        <div class="counter-value" data-count="1">0</div>
+                        <h4>Awards Won</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title text-center" data-aos="fade-up">My Services</h2>
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="service-card">
+                        <div class="icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h3>UI/UX Design</h3>
+                        <p>Creating intuitive and engaging user experiences</p>
+                        <a href="" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                        <div class="service-details">
+                            <p>Expert in creating user-centered designs that enhance user experience and drive engagement.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="service-card">
+                        <div class="icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Web Development</h3>
+                        <p>Building responsive and modern websites</p>
+                        <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                        <div class="service-details">
+                            <p>Developing custom websites with clean code and optimal performance for all devices.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="service-card">
+                        <div class="icon">
+                            <i class="fas fa-bullhorn"></i>
+                        </div>
+                        <h3>Branding</h3>
+                        <p>Developing unique and memorable brand identities</p>
+                        <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                        <div class="service-details">
+                            <p>Creating distinctive brand identities that resonate with target audiences and stand out in the market.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title text-center" data-aos="fade-up">My Work</h2>
+            <div class="portfolio-filter" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="app">App</button>
+            </div>
+            <div class="row g-4 portfolio-grid">
+                <div class="col-md-4 portfolio-item" data-category="web" data-aos="fade-up">
+                    <div class="portfolio-card">
+                        <img src="Screenshot (10).png" alt="Portfolio Item" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <h3>Cosmic Discoveries</h3>
+                            <p>Web Design</p>
+                            <a href="https://www.linkedin.com/in/hadi-khan-35b7b3345/" class="portfolio-link"><i class="fas fa-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 portfolio-item" data-category="web" data-aos="fade-up">
+                    <div class="portfolio-card">
+                        <img src="Screenshot (54).png" alt="Portfolio Item" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <h3>WATCH-Z-TOP</h3>
+                            <p>Web Design</p>
+                            <a href="https://www.linkedin.com/in/hadi-khan-35b7b3345/" class="portfolio-link"><i class="fas fa-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 portfolio-item" data-category="web" data-aos="fade-up">
+                    <div class="portfolio-card">
+                        <img src="Screenshot (55).png" alt="Portfolio Item" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <h3>MyFlix</h3>
+                            <p>Web Design</p>
+                            <a href="https://www.linkedin.com/in/hadi-khan-35b7b3345/" class="portfolio-link"><i class="fas fa-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 portfolio-item" data-category="app" data-aos="fade-up">
+                    <div class="portfolio-card">
+                        <img src="Screenshot (56).png" alt="Portfolio Item" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <h3></h3>
+                            <p>VIRTUAL ASSISTAN</p>
+                            <a href="https://www.linkedin.com/in/hadi-khan-35b7b3345/" class="portfolio-link"><i class="fas fa-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title text-center" data-aos="fade-up">Get In Touch</h2>
+            <div class="row g-4">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h4>Location</h4>
+                            <p>Karachi, Pakistan</p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <h4>Email</h4>
+                            <p><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="65084b04070110090d0404010c0e0d04040b250208040c094b060a08">[email&#160;protected]</a></p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <h4>Phone</h4>
+                            <p>+92 0335 2563330</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-danger btn-3d">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- NEW SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.0/dist/vanilla-tilt.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
